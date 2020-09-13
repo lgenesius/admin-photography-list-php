@@ -5,7 +5,7 @@ This is an website to see photography list which is only operated by the admin o
 http://daftarfotografiadmin.infinityfreeapp.com/login.php
 <br>
 <br>
-For demo, you can used this account (or you can register new account in the registration page):<br>
+To login to the main page, you can used this account (or you can register new account in the registration page):<br>
 id: luis<br>
 password: 123<br>
 
