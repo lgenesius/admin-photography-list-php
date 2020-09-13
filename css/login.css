@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    background : #127ffe;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.login-section{
+    background: #ffffff;
+    max-width: 40%;
+    border-radius: 20px;
+    margin : auto 0 auto 0;
+}
+
+.login-section div{
+    padding: 50px;
+    border-radius: 20px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+ul li:nth-child(1), li:nth-child(2), li:nth-child(5){
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+ul li:nth-child(3), li:nth-child(4){
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+#register-dulu{
+    color: #127ffe;
+}
+
+#remember{
+    margin-left: 10px;
+}
+
+input{
+    margin-top: 5px;
+}
+
+button{
+    background: #127ffe;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+a{
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px){
+    .login-section{
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 634px){
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .login-section{
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-height: 500px){
+    .container{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .login-section{
+        max-width: 90%;
+    }
+
+    p{
+        font-size:12px;
+    }
+
+    a{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    background : #127ffe;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tambah-section{
+    background: #ffffff;
+    max-width: 40%;
+    border-radius: 20px;
+    margin : auto 0 auto 0;
+}
+
+.tambah-section div{
+    padding: 50px;
+    border-radius: 20px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+input{
+    margin-top: 5px;
+}
+
+button{
+    background: #127ffe;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.input-gambar{
+    margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 800px){
+    .tambah-section{
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 634px){
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .tambah-section{
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-height: 500px){
+    .container{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .tambah-section{
+        max-width: 90%;
+    }
+
+    .input-gambar{
+        margin: 0 0 0 0;
+    }
+}
+

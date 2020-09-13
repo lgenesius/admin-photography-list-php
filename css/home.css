@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: #127ffe;
+}
+
+.container-all{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+}
+
+.container-section{
+    width: 80%;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.logout{
+    padding: 10px;
+    border: 2px solid white;
+    background: white;
+    text-decoration: none;
+    color: #127ffe;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.tampung-tambah{
+    margin-top: 30px;
+}
+
+.tambah{
+    padding: 10px;
+    border: 2px solid #127ffe;
+    background: #127ffe;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+form{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.cari-keyword{
+    width: 60%;
+    height: 30px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.table{
+    margin-top: 10px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 30px;
+}
+
+.table tr th{
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+
+.table tr td{
+    padding: 0.8rem;
+}
+
+.aksi a{
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #127ffe;
+    background: #127ffe;
+    color: white;
+    margin: 0 5px 0 5px;
+}
+
+@media screen and (max-width:905px){
+    .container-all{
+        flex-direction: column;
+    }
+
+    .container-section{
+        margin-top: 50px;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}
+
+@media screen and (max-width: 755px){
+    .table tr th{
+        padding: 0.2rem;
+    }
+    
+    .table tr td{
+        padding: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .gambar{
+        width: 50px;
+    }
+
+    .table tr th{
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+
+    .table tr td{
+        font-size: 11.5px;
+    }
+
+    .table{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    form{
+        margin-top: 40px;
+    }
+
+    .aksi a{
+        font-size: 11px;
+    }
+
+    .created{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    h1{
+        font-size: 30px;
+    }
+
+    .gambar{
+        width: 40px;
+    }
+
+    .tambah{
+        font-size: 15px;
+    }
+
+    .created{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 462px){
+    .gambar{
+        width: 30px;
+    }
+
+    .aksi a{
+        padding: 1px;
+        margin: 0 2px 0 2px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .tambah{
+        font-size: 13px;
+    }
+
+    .logout{
+        font-size: 13px;
+    }
+
+    .table tr th{
+        padding: 0rem;
+        font-size: 10px;
+    }
+    
+    .table tr td{
+        padding: 0rem;
+        font-size: 9px;
+    }
+
+    .table{
+        margin-bottom: 10px;
+    }
+
+    .created{
+        font-size: 12px;
+    }
+}
