@@ -16,6 +16,7 @@ This project is responsive with mobile and tablet also has some features such as
   <li>Session and Cookies(Remember Me) where the Cookies is set to be last for one week</li>
   <li>Create, Read, Update, Delete Data</li>
   <li>Live search using AJAX</li>
+  <li>I also hash the password in the database into random string (not using MD5)</li>
 </ul>
 
 ## Technologies
