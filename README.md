@@ -10,7 +10,7 @@ id: luis<br>
 password: 123<br>
 
 ## Descriptions
-TThis project is responsive with mobile and tablet also has some features such as :<br>
+This project is responsive with mobile and tablet also has some features such as :<br>
 <ul>
   <li>Login and Registration</li>
   <li>Session and Cookies(Remember Me) where the Cookies is set to be last for one week</li>
