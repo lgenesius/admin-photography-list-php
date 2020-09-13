@@ -3,6 +3,11 @@ This is an website to see photography list which is only operated by the admin o
 
 ## Link to This Project
 http://daftarfotografiadmin.infinityfreeapp.com/login.php
+<br>
+<br>
+For demo, you can used this account (or you can register new account in the registration page):<br>
+id: luis<br>
+password: 123<br>
 
 ## Descriptions
 This project has some features such as :<br>
