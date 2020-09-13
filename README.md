@@ -19,6 +19,8 @@ This project is responsive with mobile and tablet also has some features such as
   <li>I also hash the password in the database into random string (not using MD5)</li>
 </ul>
 
+<img src="img/hash_pass.png">
+
 ## Technologies
 <ul>
   <li>HTML</li>
