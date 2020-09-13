@@ -19,7 +19,9 @@ This project has some features such as :<br>
   <li>CSS</li>
   <li>Javascript</li>
   <li>PHP</li>
-  <li>MySQL</li>
-  <li>PHPMyAdmin</li>
-  <li>Visual Studio Code</li>  
+  <li>MySQL</li>  
 </ul>
+<br>
+Source code editor using Visual Studio Code<br>
+Tool used to handle MySQL using PHPMyAdmin<br>
+Hosted using InfinityFree
