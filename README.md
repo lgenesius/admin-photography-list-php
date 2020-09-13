@@ -16,7 +16,7 @@ This project has some features such as :<br>
   <li>Session and Cookies(Remember Me) where the Cookies is set to be last for one week</li>
   <li>Create, Read, Update, Delete Data</li>
   <li>Live search using AJAX</li>
-</ul><br>
+</ul>
 
 ## Technologies
 <ul>
