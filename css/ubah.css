@@ -56,12 +56,9 @@ button{
     margin: 0 auto 0 auto;
 }
 
-input[type="file"]{
-    text-align: center;
-}
-
 .input-gambar{
     margin: 0 auto 0 auto;
+    width: 100%;
 }
 
 @media screen and (max-width: 800px){
@@ -73,12 +70,6 @@ input[type="file"]{
 @media screen and (max-width: 634px){
     h1{
         font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 585px){
-    input[type="file"]{
-        width: 100%;
     }
 }
 
