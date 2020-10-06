@@ -2,7 +2,7 @@
 This is an website to see photography list which is only operated by the admin only. This website prioritizes the backend which is done using PHP and using the MySQL DBMS. This is also my first project of backend website using PHP.<br.
 
 ## Link to This Project
-http://daftarfotografiadmin.infinityfreeapp.com/login.php
+
 <br>
 <br>
 To login to the main page, you can used this account (or you can register new account in the registration page):<br>
