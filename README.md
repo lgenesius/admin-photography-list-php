@@ -1,14 +1,6 @@
 # Photography List used by Admin
 This is an website to see photography list which is only operated by the admin only. This website prioritizes the backend which is done using PHP and using the MySQL DBMS. This is also my first project of backend website using PHP.<br.
 
-## Link to This Project
-
-<br>
-<br>
-To login to the main page, you can used this account (or you can register new account in the registration page):<br>
-id: luis<br>
-password: 123<br>
-
 ## Descriptions
 This project is responsive with mobile and tablet also has some features such as :<br>
 <ul>
